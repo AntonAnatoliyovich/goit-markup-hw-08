@@ -1017,26 +1017,34 @@ ol {
     color: #2196f3;
   }
 }
+.modal-window .count-checkbox__button {
+  min-width: 200px;
+  min-height: 50px;
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  background-color: #188ce8;
+  border-color: #188ce8;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  padding: 10px 52px;
+  color: #ffffff;
+}
 @media screen and (min-width: 480px) {
   .modal-window .count-checkbox__button {
-    min-width: 200px;
-    min-height: 50px;
-    border-radius: 4px;
+    margin-left: 85px;
+    margin-right: 85px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal-window .count-checkbox__button {
     margin-left: 125px;
     margin-right: 125px;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    cursor: pointer;
-    background-color: #188ce8;
-    border-color: #188ce8;
-    font-family: "Roboto";
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    font-weight: 700;
-    padding: 10px 52px;
-    color: #ffffff;
   }
 }
 @media screen and (min-width: 480px) {
