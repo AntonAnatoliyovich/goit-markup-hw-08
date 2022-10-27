@@ -213,6 +213,7 @@ ol {
   .modal-window .modal-form {
     max-width: 528px;
     max-height: 581px;
+    outline: 1px solid tomato;
   }
 }
 @media screen and (min-width: 480px) {
@@ -289,7 +290,7 @@ ol {
 @media screen and (max-width: 1199px) {
   .modal-window .count__input {
     width: 370px;
-    height: 40px;
+    height: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -318,21 +319,12 @@ ol {
       -ms-flex-direction: column;
           flex-direction: column;
   font-family: "Roboto";
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   font-style: normal;
   color: #757575;
-}
-@media screen and (min-width: 480px) {
-  .modal-window .count-comment {
-    font-weight: 370px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .modal-window .count-comment {
-    font-weight: 400px;
-  }
 }
 @media screen and (min-width: 480px) {
   .modal-window .count-comment__span {
@@ -351,23 +343,12 @@ ol {
   resize: none;
   cursor: pointer;
   font-family: "Roboto";
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   font-style: normal;
   color: rgba(117, 117, 117, 0.5);
-}
-@media screen and (max-width: 1199px) {
-  .modal-window .count-comment__textarea {
-    width: 370px;
-    height: 40px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .modal-window .count-comment__textarea {
-    width: 448px;
-    height: 40px;
-  }
 }
 .modal-window .count-checkbox {
   display: -webkit-box;
@@ -378,21 +359,12 @@ ol {
           align-items: center;
   margin-left: 15px;
   font-family: "Roboto";
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
   color: #757575;
-}
-@media screen and (max-width: 1199px) {
-  .modal-window .count-checkbox {
-    font-weight: 370;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .modal-window .count-checkbox {
-    font-weight: 400;
-  }
 }
 @media screen and (min-width: 480px) {
   .modal-window .count-checkbox__input {
