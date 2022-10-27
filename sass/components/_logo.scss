@@ -1,34 +1,40 @@
 .logo {
   &__web {
-    color: $accent-color;
+    @media screen and (min-width: 480px) {
+      color: $accent-color;
 
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+      letter-spacing: 0.03em;
+    }
   }
 
   &__studio {
-    color: $logo-color;
+    @media screen and (min-width: 480px) {
+      color: $logo-color;
 
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+      letter-spacing: 0.03em;
+    }
   }
 
   &__studio--inverce {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-  
-    color: $white-color;
+    @media screen and (min-width: 480px) {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+      letter-spacing: 0.03em;
+    
+      color: $white-color;
+    }
   }
 }
