@@ -1,0 +1,136 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: $background-color-footer;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.address {
+  margin-top: 20px;
+  max-width: 231px;
+}
+
+.find {
+  &__map {
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    margin-bottom: 9px;
+  
+    transition: $transition;
+  
+    color: $white-color;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+}
+
+.contact {
+  &__mail {
+    display: block;
+    margin-bottom: 9px;
+  
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    transition: $transition;
+  
+    color: rgba(255, 255, 255, 0.6);
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+
+  &__tel {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    transition: $transition;
+  
+    color: rgba(255, 255, 255, 0.6);
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+}
+
+.community {
+  min-width: 206px;
+  min-height: 80px;
+  margin-left: 70px;
+
+  display: block;
+  text-align: left;
+  justify-content: center;
+  align-items: baseline;
+
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white-color;
+  }
+
+  &__list {
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  &__item {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  &__icon {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  
+    fill: $white-color;
+  
+    transition: $transition;
+
+    &:hover,
+    &:focus {
+      background-color: $accent-color;
+    }
+  }
+
+  &__logo {
+    height: 44px;
+  }
+}
