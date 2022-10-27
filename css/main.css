@@ -673,7 +673,6 @@ ol {
           justify-content: center;
   background-color: #f5f4fa;
   border-radius: 4px;
-  margin-bottom: 30px;
 }
 @media screen and (min-width: 480px) {
   .condescension__icon {
@@ -693,6 +692,7 @@ ol {
 .condescension__title {
   font-family: "Roboto";
   font-style: normal;
+  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -701,8 +701,12 @@ ol {
   text-transform: uppercase;
   color: #212121;
 }
+@media screen and (max-width: 767px) {
+  .condescension__title {
+    text-align: center;
+  }
+}
 .condescension__text {
-  max-width: 270px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -711,10 +715,29 @@ ol {
   letter-spacing: 0.03em;
   color: #757575;
 }
-
-.hero-task {
-  padding-bottom: 81px;
+@media screen and (min-width: 480px) {
+  .condescension__text {
+    width: 450px;
+    margin-bottom: 30px;
+  }
 }
+@media screen and (min-width: 480px) and (min-width: 480px) {
+  .condescension__text:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .condescension__text {
+    width: 354px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .condescension__text {
+    width: 270px;
+  }
+}
+
 @media screen and (max-width: 1199px) {
   .hero-task {
     display: none;

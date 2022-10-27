@@ -86,8 +86,6 @@
     justify-content: center;
     background-color: $background-color;
     border-radius: 4px;
-  
-    margin-bottom: 30px;
 
     @media screen and (min-width: 480px) {
       width: 450px;
@@ -105,7 +103,8 @@
   &__title {
     font-family: "Roboto";
     font-style: normal;
-  
+
+    margin-top: 30px;
     margin-bottom: 10px;
   
     font-weight: 700;
@@ -115,10 +114,13 @@
     text-transform: uppercase;
   
     color: $main-color;
+
+    @media screen and (max-width: 767px) {
+      text-align: center;
+    }
   }
 
   &__text {
-    max-width: 270px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -127,6 +129,25 @@
     letter-spacing: 0.03em;
   
     color: $second-color;
+
+    @media screen and (min-width: 480px) {
+      width: 450px;
+      margin-bottom: 30px;
+      &:not(:last-child) {
+        @media screen and (min-width: 480px) {
+          margin-bottom: 30px;          
+        }
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      margin-bottom: 0;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+    }
   }
 }
 
@@ -134,8 +155,6 @@
   @media screen and (max-width: 1199px) {
     display: none;
   }
-
-  padding-bottom: 81px;
 }
 
 .task {
