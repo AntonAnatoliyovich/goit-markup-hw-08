@@ -645,6 +645,15 @@ ol {
 .condescension__icon {
   max-width: 270px;
   min-height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -661,6 +670,7 @@ ol {
   color: #212121;
 }
 .condescension__text {
+  max-width: 270px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
