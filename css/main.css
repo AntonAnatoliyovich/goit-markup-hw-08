@@ -476,7 +476,7 @@ ol {
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    max-width: 480px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -485,7 +485,7 @@ ol {
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -494,7 +494,7 @@ ol {
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+    max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -661,7 +661,6 @@ ol {
   }
 }
 .condescension__icon {
-  max-width: 270px;
   min-height: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -675,6 +674,21 @@ ol {
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 480px) {
+  .condescension__icon {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .condescension__icon {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .condescension__icon {
+    width: 270px;
+  }
 }
 .condescension__title {
   font-family: "Roboto";
