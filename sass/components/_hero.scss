@@ -86,7 +86,7 @@
 
   &__item {
     @media screen and (min-width: 768px) {
-      flex-basis: calc((100% - 30px) / 2);
+      flex-basis: calc((100% - 60px) / 2);
     }
 
     @media screen and (min-width: 1200px) {
@@ -214,57 +214,112 @@
   }
 }
 
-// .hero-team {
-//   background-color: $background-color;
-// }
+.hero-team {
+  background-color: $background-color;
+}
 
-// .team {
-//   &__title {
-//     margin: 0 auto;
-//   }
+.team {
+  &__title {
+    margin: 0 auto;
+  }
 
-//   &__list {
-//     display: flex;
-//     gap: 30px;
-//     margin-top: 50px;
-//   }
+  &__list {
+    @media screen and (min-width: 480px) {
+      margin-top: 30px;
+    }
 
-//   &__item {
-//     width: calc((100% - 90px) / 4);
-//   }
-// }
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      gap: 30px;
+      margin-top: 50px;
+    }
+  }
 
-// .employees {
-//   background-color: $white-color;
+  &__item {
+    @media screen and (min-width: 768px) {
+      flex-basis: calc((100% - 60px) / 2);
+    }
 
-//   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-//     0px 2px 1px rgba(0, 0, 0, 0.2);
-//   border-radius: 0px 0px 4px 4px;
+    @media screen and (min-width: 1200px) {
+      flex-basis: calc((100% - 90px) / 4);
+    }
+  }
+}
 
-//   &__card {
-//     padding-top: 30px;
-//   }
+.employees {
+  background-color: $white-color;
 
-//   &__name {
-//     margin-bottom: 10px;
-//     font-weight: 500;
-//     font-size: 16px;
-//     line-height: 1.19;
-//     text-align: center;
-//     letter-spacing: 0.03em;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  justify-content: center;
+
+  &__icon {
+    @media screen and (min-width: 480px) {
+      width: 450px;
+      height: 460px;
+    }
   
-//     color: $main-color;
-//   }
-
-//   &__speciality {
-//     font-size: 16px;
-//     line-height: 1.19;
-//     text-align: center;
-//     letter-spacing: 0.03em;
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      height: 374px;
+    }
   
-//     color: $second-color;
-//   }
-// }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+      height: 260px;
+    }
+  }
+
+  &__card {
+    @media screen and (min-width: 480px) {
+      min-width: 450px;
+    }
+  
+    @media screen and (min-width: 768px) {
+      min-width: 354px;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      min-width: 270px;
+    }
+    // padding-top: 30px;
+  }
+
+  &__name {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: $main-color;
+  }
+
+  &__speciality {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: $second-color;
+  }
+
+}
+
+
+
+
+
 
 // .social-network {
 //   display: flex;

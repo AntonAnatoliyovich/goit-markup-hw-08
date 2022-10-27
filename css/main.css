@@ -667,8 +667,8 @@ ol {
 }
 @media screen and (min-width: 768px) {
   .condescension__item {
-    -ms-flex-preferred-size: calc((100% - 30px) / 2);
-        flex-basis: calc((100% - 30px) / 2);
+    -ms-flex-preferred-size: calc((100% - 60px) / 2);
+        flex-basis: calc((100% - 60px) / 2);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -795,4 +795,108 @@ ol {
   text-transform: uppercase;
   color: #ffffff;
   background: rgba(47, 48, 58, 0.8);
+}
+
+.hero-team {
+  background-color: #f5f4fa;
+}
+
+.team__title {
+  margin: 0 auto;
+}
+@media screen and (min-width: 480px) {
+  .team__list {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team__item {
+    -ms-flex-preferred-size: calc((100% - 60px) / 2);
+        flex-basis: calc((100% - 60px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team__item {
+    -ms-flex-preferred-size: calc((100% - 90px) / 4);
+        flex-basis: calc((100% - 90px) / 4);
+  }
+}
+
+.employees {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media screen and (min-width: 480px) {
+  .employees__icon {
+    width: 450px;
+    height: 460px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .employees__icon {
+    width: 354px;
+    height: 374px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .employees__icon {
+    width: 270px;
+    height: 260px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .employees__card {
+    min-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .employees__card {
+    min-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .employees__card {
+    min-width: 270px;
+  }
+}
+.employees__name {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.employees__speciality {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }/*# sourceMappingURL=main.css.map */
