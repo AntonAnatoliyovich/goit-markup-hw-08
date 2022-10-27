@@ -55,54 +55,68 @@
   }
 }
 
-// .condescension {
-//   &__list {
-//     display: flex;
-//     gap: 30px;
-//   }
+.condescension {
+  &__list {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
 
-//   &__item {
-//     width: calc((100% - 90px) / 4); 
-//   }
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      gap: 30px;
+    }
+  }
 
-//   &__icon {
-//     max-width: 270px;
-//     min-height: 120px;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     background-color: $background-color;
-//     border-radius: 4px;
-  
-//     margin-bottom: 30px;
-//   }
+  &__item {
+    @media screen and (min-width: 768px) {
+      flex-basis: calc((100% - 30px) / 2);
+    }
 
-//   &__title {
-//     font-family: "Roboto";
-//     font-style: normal;
-  
-//     margin-bottom: 10px;
-  
-//     font-weight: 700;
-//     font-size: 14px;
-//     line-height: 1.14;
-//     letter-spacing: 0.03em;
-//     text-transform: uppercase;
-  
-//     color: $main-color;
-//   }
+    @media screen and (min-width: 1200px) {
+      flex-basis: calc((100% - 90px) / 4);
+    }
+  }
 
-//   &__text {
-//     font-family: "Roboto";
-//     font-style: normal;
-//     font-weight: 400;
-//     font-size: 14px;
-//     line-height: 1.71;
-//     letter-spacing: 0.03em;
+  &__icon {
+    max-width: 270px;
+    min-height: 120px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    background-color: $background-color;
+    border-radius: 4px;
   
-//     color: $second-color;
-//   }
-// }
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+  
+    margin-bottom: 10px;
+  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: $main-color;
+  }
+
+  &__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    color: $second-color;
+  }
+}
 
 .hero-task {
   @media screen and (max-width: 1199px) {
