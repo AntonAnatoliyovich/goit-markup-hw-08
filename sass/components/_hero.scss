@@ -127,47 +127,47 @@
   padding-bottom: 81px;
 }
 
-// .task {
-//   &__title {
-//     margin: 0 auto;
-//   }
+.task {
+  &__title {
+    margin: 0 auto;
+  }
 
-//   &__list {
-//     margin-top: 50px;
-//     display: flex;
-//     gap: 30px;
-//   }
+  &__list {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+  }
 
-//   &__item {
-//     width: calc((100% - 60px) / 3);
-//     position: relative;
-//   }
+  &__item {
+    width: calc((100% - 60px) / 3);
+    position: relative;
+  }
 
-//   &__image {
-//     display: block;
-//   }
+  &__image {
+    display: block;
+  }
 
-//   &__text {
-//     position: absolute;
-//     width: 370px;
-//     height: 70px;
-//     padding-top: 27px;
-//     left: 0;
-//     bottom: 0;
+  &__text {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    padding-top: 27px;
+    left: 0;
+    bottom: 0;
   
-//     font-family: "Roboto";
-//     font-style: normal;
-//     font-weight: 700;
-//     font-size: 14px;
-//     line-height: 1.14;
-//     text-align: center;
-//     letter-spacing: 0.03em;
-//     text-transform: uppercase;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
   
-//     color: $white-color;
-//     background: rgba(47, 48, 58, 0.8);
-//   }
-// }
+    color: $white-color;
+    background: rgba(47, 48, 58, 0.8);
+  }
+}
 
 // .hero-team {
 //   background-color: $background-color;
