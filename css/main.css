@@ -1094,27 +1094,6 @@ ol {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .community {
-    text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 60px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .community {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
-    margin-bottom: 60px;
-  }
-}
-
 .find__map {
   display: block;
   font-style: normal;
@@ -1155,70 +1134,4 @@ ol {
 }
 .contact__tel:hover, .contact__tel:focus {
   color: #2196f3;
-}
-
-.community {
-  min-width: 206px;
-  min-height: 80px;
-  margin-left: 70px;
-  display: block;
-  text-align: left;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-}
-.community__title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-.community__list {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  gap: 10px;
-  margin-top: 20px;
-}
-.community__item {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.1);
-}
-.community__icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  fill: #ffffff;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.community__icon:hover, .community__icon:focus {
-  background-color: #2196f3;
-}
-.community__logo {
-  height: 44px;
 }/*# sourceMappingURL=main.css.map */
