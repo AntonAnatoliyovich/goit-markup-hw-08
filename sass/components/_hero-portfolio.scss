@@ -62,13 +62,12 @@
   @media screen and (min-width: 1200px) {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
   }
 
   &__info {
     height: 404px;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (min-width: 480px) {
       display: block;
       margin: 0 auto;
       width: 450px;
