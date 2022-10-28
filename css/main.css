@@ -1074,6 +1074,12 @@ ol {
   }
 }
 @media screen and (max-width: 1199px) {
+  .footer-nav__logo {
+    margin: 0 auto;
+    display: block;
+  }
+}
+@media screen and (max-width: 1199px) {
   .footer-nav__div {
     text-align: center;
     -webkit-box-pack: center;
@@ -1083,8 +1089,7 @@ ol {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-nav__div {
-    margin-right: 165px;
-    margin-left: 45px;
+    margin-left: 55px;
   }
 }
 .footer-nav__logo {
@@ -1100,7 +1105,6 @@ ol {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1186,6 +1190,11 @@ ol {
     min-width: 206px;
     min-height: 80px;
     margin-left: 70px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .community {
+    margin-left: 165px;
   }
 }
 .community__title {
