@@ -110,23 +110,21 @@ address {
           transform: translate(-50%, -50%) scale(1.1);
 }
 
-@media screen and (min-width: 480px) {
-  .modal-window {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%) scale(1);
-            transform: translate(-50%, -50%) scale(1);
-    padding: 40px;
-    background-color: #ffffff;
-    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+.modal-window {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  padding: 40px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 480px) and (max-width: 1199px) {
   .modal-window {
@@ -998,6 +996,8 @@ address {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
@@ -1019,19 +1019,6 @@ address {
     display: block;
   }
 }
-@media screen and (max-width: 1199px) {
-  .footer-nav__div {
-    text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .footer-nav__div {
-    margin-left: 55px;
-  }
-}
 .footer-nav__logo {
   text-align: center;
   -webkit-box-pack: center;
@@ -1039,7 +1026,7 @@ address {
           justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1199px) {
   .address {
     text-align: center;
     -webkit-box-pack: center;
@@ -1129,12 +1116,6 @@ address {
             align-items: baseline;
     min-width: 206px;
     min-height: 80px;
-    margin-left: 70px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .community {
-    margin-left: 165px;
   }
 }
 .community__title {
