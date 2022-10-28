@@ -1073,6 +1073,21 @@ ol {
             align-items: baseline;
   }
 }
+.footer-nav__div {
+  min-width: 232px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-nav__div {
+    margin-right: 165px;
+    margin-left: 45px;
+  }
+}
+.footer-nav__logo {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 
 @media screen and (max-width: 768px) {
   .address {
@@ -1139,6 +1154,9 @@ ol {
   color: #2196f3;
 }
 
+.community {
+  width: 206px;
+}
 @media screen and (max-width: 768px) {
   .community {
     -webkit-box-pack: center;

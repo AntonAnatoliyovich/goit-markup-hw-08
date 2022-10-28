@@ -29,6 +29,25 @@
     display: flex;
     align-items: baseline;
   }
+
+  &__div {
+    min-width: 232px;
+
+    // @media screen and (max-width: 1199px) {
+    //   text-align: center;
+    //   justify-content: center;
+    // }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      margin-right: 165px;
+      margin-left: 45px;
+    }
+  }
+
+  &__logo {
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 .address {
@@ -106,6 +125,8 @@
 }
 
 .community {
+  width: 206px;
+
   @media screen and (max-width: 768px) {
     justify-content: center;
     text-align: center;
