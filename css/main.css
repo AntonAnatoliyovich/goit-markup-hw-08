@@ -1088,9 +1088,6 @@ address {
   color: #2196f3;
 }
 
-.community {
-  width: 206px;
-}
 @media screen and (max-width: 768px) {
   .community {
     -webkit-box-pack: center;
@@ -1100,7 +1097,6 @@ address {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
-    width: 450px;
     height: 156px;
   }
 }
@@ -1114,7 +1110,6 @@ address {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
-    min-width: 206px;
     min-height: 80px;
   }
 }
