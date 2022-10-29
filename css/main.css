@@ -1241,6 +1241,11 @@ address {
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
 }
+@media screen and (max-width: 767px) {
+  .form__input {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 1199px) {
   .form__input {
     width: 450px;
