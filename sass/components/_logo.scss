@@ -1,4 +1,7 @@
 .logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  
   &__web {
     @media screen and (min-width: 480px) {
       color: $accent-color;
