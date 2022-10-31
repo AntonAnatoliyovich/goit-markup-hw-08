@@ -447,6 +447,27 @@ address {
   }
 }
 
+.menu-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.navigation {
+  position: relative;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .header {
   border: 1px solid #ececec;
 }
