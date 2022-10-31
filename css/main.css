@@ -337,6 +337,9 @@ address {
   margin-right: 10px;
   border: 2px solid #212121;
 }
+.modal-window .count-checkbox__text {
+  width: 100%;
+}
 .modal-window .count-checkbox__link {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
