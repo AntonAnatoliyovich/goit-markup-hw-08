@@ -45,12 +45,53 @@
                   +38 096 111 11 11</a>
               </li>
             </ul>
-            <button type="button" class="header__button is-open">
-              <svg width="40px" height="40px" aria-label="Перемикач мобільного меню">
-                <use class="header__menu-icon" href="./image/symbol-defs.svg#icon-header-menu"></use>
-                <use class="header__menu-close" href="./image/symbol-defs.svg#icon-header-close"></use>
-              </svg>
-            </button>
+        </div>
+        <a class="logo link" href="">
+          <span lang="en"><span class="logo__web">Web</span><span class="logo__studio">Studio</span></span></a>
+        <div>
+          <ul class="header__list list">
+            <li class="header__item">
+              <a class="header__link header__link--current link" href="./index.html">Студія</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link link" href="">Контакти</a>
+            </li>
+          </ul>
+          <ul class="header__list list">
+            <li class="header__item">
+              <a class="header__contact link" href="mailto:info@devstudio.com">
+                <svg class="header__icon" width="16" height="12">
+                  <use href="./image/symbol-defs.svg#icon-mail"></use>
+                </svg>
+                info@devstudio.com</a>
+            </li>
+            <li class="header-item-second">
+              <a class="header__contact link" href="tel:+380961111111">
+                <svg class="header__icon" width="10" height="16">
+                  <use href="./image/symbol-defs.svg#icon-phone"></use>
+                </svg>
+                +38 096 111 11 11</a>
+            </li>
+          </ul>
+          <ul>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>Facebook</li>
+            <li>Linkedin</li>
+          </ul>
+          <button
+          type="button"
+          class="header__button is-open"
+          aria-expanded="false"
+          >
+            <svg width="40px" height="40px" aria-label="Перемикач мобільного меню">
+              <use class="header__menu-icon" href="./image/symbol-defs.svg#icon-header-menu"></use>
+              <use class="header__menu-close" href="./image/symbol-defs.svg#icon-header-close"></use>
+            </svg>
+          </button>          
         </div>
       </header>
     <main>
@@ -129,12 +170,23 @@
                 <p class="task__text">Десктопні додатки</p>
               </li>
               <li class="task__item list">
+                <picture>
+                  <source
+                  media="(min-width:1200px)"
+                  srcset="./image/img2.jpg 1x, ./image/img2-2x.jpg 2x"
+                  />
+                  <source
+                  media="(min-width:768px)"
+                  srcset="./image/img2.jpg 1x, ./image/img2-2x.jpg 2x"
+                  />
+                </picture>
                 <img class="task__image"
                 srcset="./image/img2.jpg 1x, ./image/img2-2x.jpg 2x"
                 src="./image/img2.jpg"
                 alt="фото2"
                 width="370"
-                height="294" />
+                loading="lazy"
+                />
                 <p class="task__text">Мобільні додатки</p>
               </li>
               <li class="task__item list">
