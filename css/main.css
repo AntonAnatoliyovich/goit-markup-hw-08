@@ -450,24 +450,6 @@ address {
   }
 }
 
-.menu-container {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  border: 1px solid red;
-}
-
-.navigation {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 .header {
   border: 1px solid #ececec;
 }
@@ -551,27 +533,6 @@ address {
   margin: 0;
   border: none;
   background-color: transparent;
-}
-
-.header__button .header__menu-close {
-  display: none;
-}
-
-.header__button.is-open .header__menu-close {
-  display: block;
-}
-
-.header__button.is-open .header__menu-icon {
-  display: none;
-}
-
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .hero {
