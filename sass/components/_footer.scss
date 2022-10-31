@@ -1,7 +1,9 @@
 .footer {
-  background-color: $background-color-footer;
+  @media screen and (min-width: 320px) {
+    background-color: $background-color-footer;
+  }
 
-  @media screen and (min-width: 480px) and (max-width: 1199px) {
+  @media screen and (min-width: 320px) and (max-width: 1199px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }

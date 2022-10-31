@@ -48,7 +48,7 @@ address {
   letter-spacing: 0.03em;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 320px) and (max-width: 1199px) {
   .section {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -416,7 +416,7 @@ address {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .container {
     width: 480px;
     padding-left: 15px;
@@ -589,21 +589,21 @@ address {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../image/background2x.jpg);
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .hero {
-    width: 480px;
+    max-width: 480px;
     min-height: 400px;
   }
 }
 @media screen and (min-width: 768px) {
   .hero {
-    width: 768px;
+    max-width: 768px;
     min-height: 400px;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    width: 1600px;
+    max-width: 1600px;
     min-height: 600px;
   }
 }
@@ -683,19 +683,19 @@ address {
   background-color: #f5f4fa;
   border-radius: 4px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .condescension__icon {
-    width: 450px;
+    max-width: 450px;
   }
 }
 @media screen and (min-width: 768px) {
   .condescension__icon {
-    width: 354px;
+    max-width: 354px;
   }
 }
 @media screen and (min-width: 1200px) {
   .condescension__icon {
-    width: 270px;
+    max-width: 270px;
   }
 }
 .condescension__title {
@@ -724,26 +724,26 @@ address {
   letter-spacing: 0.03em;
   color: #757575;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .condescension__text {
-    width: 450px;
+    max-width: 450px;
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 480px) and (min-width: 480px) {
+@media screen and (min-width: 320px) and (min-width: 320px) {
   .condescension__text:not(:last-child) {
     margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) {
   .condescension__text {
-    width: 354px;
+    max-width: 354px;
     margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1200px) {
   .condescension__text {
-    width: 270px;
+    max-width: 270px;
   }
 }
 
@@ -772,7 +772,7 @@ address {
 }
 .task__text {
   position: absolute;
-  width: 370px;
+  min-width: 370px;
   height: 70px;
   padding-top: 27px;
   left: 0;
@@ -796,7 +796,7 @@ address {
 .team__title {
   margin: 0 auto;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .team__list {
     margin-top: 30px;
   }
@@ -840,26 +840,44 @@ address {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .employees__icon {
-    width: 450px;
-    height: 460px;
+    min-width: 450px;
+    min-height: 460px;
   }
 }
 @media screen and (min-width: 768px) {
   .employees__icon {
-    width: 354px;
-    height: 374px;
+    min-width: 354px;
+    min-height: 374px;
   }
 }
 @media screen and (min-width: 1200px) {
   .employees__icon {
-    width: 270px;
-    height: 260px;
+    min-width: 270px;
+    min-height: 260px;
   }
 }
 .employees__card {
   padding-top: 30px;
+}
+@media screen and (min-width: 320px) {
+  .employees__card {
+    max-width: 450px;
+    max-height: 460px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .employees__card {
+    max-width: 354px;
+    max-height: 374px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .employees__card {
+    max-width: 270px;
+    max-height: 260px;
+  }
 }
 .employees__name {
   margin-bottom: 10px;
@@ -926,7 +944,7 @@ address {
   height: 44px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .client__title {
     margin-bottom: 30px;
   }
@@ -947,7 +965,7 @@ address {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .client__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -996,29 +1014,31 @@ address {
   fill: #2196f3;
   border-color: #2196f3;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .client__link {
-    width: 210px;
+    max-width: 210px;
     height: 92px;
   }
 }
 @media screen and (min-width: 768px) {
   .client__link {
     width: 226px;
-    height: 92px;
+    max-height: 92px;
   }
 }
 @media screen and (min-width: 1200px) {
   .client__link {
-    width: 170px;
+    max-width: 170px;
     height: 92px;
   }
 }
 
-.footer {
-  background-color: #2f303a;
+@media screen and (min-width: 320px) {
+  .footer {
+    background-color: #2f303a;
+  }
 }
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 320px) and (max-width: 1199px) {
   .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1290,7 +1310,7 @@ address {
 }
 @media screen and (max-width: 767px) {
   .form__input {
-    width: 100%;
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -1434,21 +1454,21 @@ address {
   .work__info {
     display: block;
     margin: 0 auto;
-    width: 450px;
+    max-width: 450px;
   }
 }
 @media screen and (min-width: 768px) {
   .work__info {
     -ms-flex-preferred-size: calc((100% - 60px) / 2);
         flex-basis: calc((100% - 60px) / 2);
-    width: 354px;
+    max-width: 354px;
   }
 }
 @media screen and (min-width: 1200px) {
   .work__info {
     -ms-flex-preferred-size: calc((100% - 60px) / 3);
         flex-basis: calc((100% - 60px) / 3);
-    width: 370px;
+    max-width: 370px;
   }
 }
 .work__info:hover, .work__info:focus {
@@ -1464,39 +1484,39 @@ address {
   .work__icon {
     display: block;
     margin: 0 auto;
-    width: 450px;
+    max-width: 450px;
   }
 }
 @media screen and (min-width: 768px) {
   .work__icon {
     -ms-flex-preferred-size: calc((100% - 60px) / 2);
         flex-basis: calc((100% - 60px) / 2);
-    width: 354px;
+    max-width: 354px;
   }
 }
 @media screen and (min-width: 1200px) {
   .work__icon {
     -ms-flex-preferred-size: calc((100% - 60px) / 3);
         flex-basis: calc((100% - 60px) / 3);
-    width: 370px;
+    max-width: 370px;
   }
 }
 .work__image {
   height: 294px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .work__image {
-    width: 450px;
+    max-width: 450px;
   }
 }
 @media screen and (min-width: 768px) {
   .work__image {
-    width: 354px;
+    max-width: 354px;
   }
 }
 @media screen and (min-width: 1200px) {
   .work__image {
-    width: 370px;
+    max-width: 370px;
   }
 }
 .work__label {
