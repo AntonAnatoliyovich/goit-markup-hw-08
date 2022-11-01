@@ -1492,6 +1492,14 @@ address {
     display: none;
   }
 }
+@media screen and (min-width: 320px) {
+  .navigation__mobile-button {
+    width: 40px;
+    height: 40px;
+    background-color: inherit;
+    border: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .navigation__mobile-button {
     display: none;
@@ -1515,5 +1523,13 @@ address {
 @media screen and (min-width: 768px) {
   .mobile {
     display: none;
+  }
+}
+@media screen and (min-width: 320px) {
+  .mobile__button {
+    width: 40px;
+    height: 40px;
+    background-color: inherit;
+    border: none;
   }
 }/*# sourceMappingURL=main.css.map */
