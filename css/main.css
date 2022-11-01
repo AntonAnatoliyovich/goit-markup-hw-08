@@ -1467,6 +1467,12 @@ address {
           transform: translateY(0);
 }
 
+@media screen and (max-width: 767px) {
+  .header {
+    width: 100vw;
+    height: 100vh;
+  }
+}
 .header__container {
   position: relative;
 }
@@ -1502,8 +1508,9 @@ address {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  border: 2px solid red;
+  width: 100vw;
+  height: 100vh;
+  border: 3px solid aquamarine;
 }
 @media screen and (min-width: 768px) {
   .mobile {
