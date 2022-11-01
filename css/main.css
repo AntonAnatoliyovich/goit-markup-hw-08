@@ -1467,6 +1467,12 @@ address {
           transform: translateY(0);
 }
 
+@media screen and (min-width: 768px) {
+  .header {
+    border: 1px solid #ececec;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .navigation {
     display: -webkit-box;
@@ -1475,11 +1481,9 @@ address {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .navigation__list {
-    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1490,9 +1494,31 @@ address {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .navigation__list {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navigation__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navigation__list {
+    gap: 50px;
+    margin-left: 93px;
   }
 }
 @media screen and (min-width: 320px) {
@@ -1506,15 +1532,6 @@ address {
 @media screen and (min-width: 768px) {
   .navigation__mobile-button {
     display: none;
-  }
-}
-@media screen and (min-width: 768px) {
-  .navigation__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 50px;
-    margin-left: 92px;
   }
 }
 
@@ -1531,6 +1548,12 @@ address {
     gap: 30px;
   }
 }
+@media screen and (min-width: 768px) {
+  .navigation-contact__item {
+    display: block;
+    height: 16px;
+  }
+}
 
 .mobile {
   position: fixed;
@@ -1541,7 +1564,6 @@ address {
   padding: 40px;
   z-index: 999;
   background-color: #ffffff;
-  border: 3px solid aquamarine;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
 }

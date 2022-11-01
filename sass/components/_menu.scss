@@ -1,54 +1,69 @@
+.header {
+    @media screen and (min-width: 768px) {
+        border: 1px solid #ececec;
+    }
+}
+
 .navigation {
     @media screen and (min-width: 320px) and (max-width: 767px) {
         display: flex;
-        justify-content: space-between;        
-    }
-
-    @media screen and (min-width: 320px) and (max-width: 767px) {
-        &__list {
-            display: none;
-        }        
+        justify-content: space-between;
+        align-items: center;
     }
 
     @media screen and (min-width: 768px) {
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
+        align-items: center;
     }
+
+    &__list {
+        @media screen and (min-width: 320px) and (max-width: 767px) {
+        display: none;
+        }
+
+       @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+       }
+
+       @media screen and (min-width: 1200px) {
+        gap: 50px;
+        margin-left: 93px;
+       }
+    }    
 
     &__mobile-button {
         @media screen and (min-width: 320px) {
-            width: 40px;
-            height: 40px;
-            background-color: inherit;
-            border: none;
-        }
+        width: 40px;
+        height: 40px;
+        background-color: inherit;
+        border: none;
+       }
 
         @media screen and (min-width: 768px) {
             display: none;            
         }
     }
-
-    &__list {
-        @media screen and (min-width: 768px) {
-            display: flex;
-            gap: 50px;
-            margin-left: 92px;
-        }
-    }
 }
 
 .navigation-contact {
-    @media screen and (min-width: 320px) and (max-width: 767px) {
-        &__list {
-            display: none;
-        }        
-    }
-
     &__list {
+        @media screen and (min-width: 320px) and (max-width: 767px) {
+            display: none;
+        }
+
         @media screen and (min-width: 1200px) {
             display: flex;
             gap: 30px;
+        }
+    }
+
+    &__item {
+        @media screen and (min-width: 768px) {
+            display: block;
+            height: 16px;            
         }
     }
 }
@@ -59,14 +74,10 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-
     padding: 40px;
-
     z-index: 999;
 
     background-color: $white-color;
-
-    border: 3px solid aquamarine;
 
     transform: translateX(100%);
 
