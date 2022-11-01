@@ -46,6 +46,26 @@
             display: none;            
         }
     }
+
+    &__link {
+        @media screen and (min-width: 768px) {
+            color: $main-color;
+
+            position: relative;
+          
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+          
+            transition: $transition;
+        
+            &:hover,
+            &:focus {
+              color: $accent-color;
+            }
+        }
+    }
 }
 
 .navigation-contact {
