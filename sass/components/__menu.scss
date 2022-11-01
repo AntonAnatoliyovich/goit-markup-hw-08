@@ -49,15 +49,10 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: $white-color;
 
     padding: 40px;
 
     border: 3px solid aquamarine;
-
-    @media screen and (min-width: 320px) and (max-width: 767px) {
-        
-    }
 
     @media screen and (min-width: 768px) {
         display: none;        
@@ -73,6 +68,6 @@
     }
 }
 
-.mobile.is-open .navigation {
-    display: none;
-}
+// .mobile.is-open .navigation {
+//     display: none;
+// }

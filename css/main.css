@@ -1518,7 +1518,6 @@ address {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #ffffff;
   padding: 40px;
   border: 3px solid aquamarine;
 }
@@ -1534,8 +1533,4 @@ address {
     background-color: inherit;
     border: none;
   }
-}
-
-.mobile.is-open .navigation {
-  display: none;
 }/*# sourceMappingURL=main.css.map */
