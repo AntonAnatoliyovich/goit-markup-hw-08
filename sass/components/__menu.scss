@@ -65,7 +65,7 @@
 }
 
 .mobile {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
@@ -73,7 +73,13 @@
 
     padding: 40px;
 
+    z-index: 999;
+
+    background-color: blue;
+
     border: 3px solid aquamarine;
+
+    transform: translateX(100%);
 
     @media screen and (min-width: 768px) {
         display: none;        
