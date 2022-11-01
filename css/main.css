@@ -1467,16 +1467,6 @@ address {
           transform: translateY(0);
 }
 
-@media screen and (max-width: 767px) {
-  .header {
-    width: 100vw;
-    height: 100vh;
-  }
-}
-.header__container {
-  position: relative;
-}
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .navigation {
     display: -webkit-box;
@@ -1543,13 +1533,17 @@ address {
 }
 
 .mobile {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
   padding: 40px;
+  z-index: 999;
+  background-color: #ffffff;
   border: 3px solid aquamarine;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
 }
 @media screen and (min-width: 768px) {
   .mobile {
@@ -1563,4 +1557,9 @@ address {
     background-color: inherit;
     border: none;
   }
+}
+
+.mobile.is-open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }/*# sourceMappingURL=main.css.map */

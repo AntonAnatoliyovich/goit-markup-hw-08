@@ -1,14 +1,3 @@
-.header {
-    @media screen and (max-width: 767px) {
-        width: 100vw;
-        height: 100vh; 
-    }
-
-    &__container {
-        position: relative;
-    }
-}
-
 .navigation {
     @media screen and (min-width: 320px) and (max-width: 767px) {
         display: flex;
@@ -75,7 +64,7 @@
 
     z-index: 999;
 
-    background-color: blue;
+    background-color: $white-color;
 
     border: 3px solid aquamarine;
 
@@ -93,4 +82,8 @@
             border: none;
         }
     }
+}
+
+.mobile.is-open {
+    transform: translateX(0);
 }
