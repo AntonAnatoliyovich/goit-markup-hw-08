@@ -243,4 +243,6 @@
 .network__item:not(:last-child) {
   border-right: 2px solid rgba(33, 33, 33, 0.2);
   height: 22px;
+  padding-right: 10px;
+  margin-right: 10px;
 }
