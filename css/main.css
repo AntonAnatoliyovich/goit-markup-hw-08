@@ -1613,9 +1613,8 @@ address {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   position: fixed;
   top: 0;
   left: 0;
@@ -1695,6 +1694,7 @@ address {
 }
 
 .network__list {
+  margin-top: 64px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

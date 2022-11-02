@@ -132,7 +132,7 @@
 .mobile {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 
   position: fixed;
   top: 0;
@@ -222,6 +222,8 @@
 }
 
 .network__list {
+  margin-top: 64px;
+
   display: flex;
   justify-content: space-between;
 
