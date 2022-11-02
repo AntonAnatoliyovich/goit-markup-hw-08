@@ -1714,7 +1714,6 @@ address {
 }
 
 .network__item:not(:last-child) {
-  display: block;
   border-right: 2px solid rgba(33, 33, 33, 0.2);
   max-height: 22px;
   padding-right: 10px;
