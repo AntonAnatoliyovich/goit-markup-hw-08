@@ -34,10 +34,10 @@
           </button>
           <ul class="navigation__list list">
             <li class="navigation__item">
-              <a class="navigation__link link" href="./index.html">Студія</a>
+              <a class="navigation__link header__link--current link" href="./index.html">Студія</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link header__link--current link" href="./portfolio.html">Портфоліо</a>
+              <a class="navigation__link link" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="navigation__item">
               <a class="navigation__link link" href="">Контакти</a>
@@ -66,7 +66,7 @@
               <use href="./image/symbol-defs.svg#icon-header-close"></use>
             </svg>
           </button>
-          <ul class="mobile__list">
+          <ul class="mobile__list mobile__list--first">
             <li class="mobile__item">
               <a class="mobile__link" href="index.html">Студія</a>
             </li>
@@ -77,28 +77,24 @@
               <a class="mobile__link" href="">Контакти</a>
             </li>
           </ul>
-          <ul class="mobile__list list">
-            <li class="mobile__item">
-              <a class="mobile__contact link" href="mailto:info@devstudio.com">
-                <svg class="mobile__icon" width="16" height="12">
-                  <use href="./image/symbol-defs.svg#icon-mail"></use>
-                </svg>
-                info@devstudio.com</a>
-            </li>
-            <li class="mobile-item">
-              <a class="mobile__contact link" href="tel:+380961111111">
-                <svg class="mobile__icon" width="10" height="16">
-                  <use href="./image/symbol-defs.svg#icon-phone"></use>
-                </svg>
-                +38 096 111 11 11</a>
-            </li>
-          </ul>
-          <ul>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>Facebook</li>
-            <li>Linkedin</li>
-          </ul>
+          <div>
+            <ul class="mobile__list list">
+              <li class="mobile-item">
+                <a class="mobile__contact--tel link" href="tel:+380961111111">
+                  +38 096 111 11 11</a>
+              </li>
+              <li class="mobile__item">
+                <a class="mobile__contact--mail link" href="mailto:info@devstudio.com">
+                  info@devstudio.com</a>
+              </li>
+            </ul>
+            <ul class="network__list list">
+              <li class="network__item">Instagram</li>
+              <li class="network__item">Twitter</li>
+              <li class="network__item">Facebook</li>
+              <li class="network__item">Linkedin</li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
