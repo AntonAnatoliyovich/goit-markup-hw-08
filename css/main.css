@@ -1613,8 +1613,9 @@ address {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
@@ -1675,6 +1676,10 @@ address {
           transform: translateX(0);
 }
 
+.mobile__list--first {
+  padding-top: 48px;
+}
+
 .mobile__contact--tel {
   display: block;
   margin-bottom: 32px;
@@ -1706,4 +1711,9 @@ address {
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: #2196f3;
+}
+
+.network__item:not(:last-child) {
+  border-right: 2px solid rgba(33, 33, 33, 0.2);
+  height: 22px;
 }/*# sourceMappingURL=main.css.map */
