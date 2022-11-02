@@ -156,6 +156,7 @@
     margin-right: 15px;
 
     transition: $transition;
+    cursor: pointer;
 
     &:hover,
     &:focus {
@@ -186,6 +187,10 @@
         color: $accent-color;
       }
     }
+  }
+
+  &__item {
+    margin-bottom: 32px;
   }
 }
 
