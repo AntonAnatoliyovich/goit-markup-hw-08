@@ -1522,6 +1522,9 @@ address {
     margin-left: 93px;
   }
 }
+.navigation__mobile-button {
+  cursor: pointer;
+}
 @media screen and (min-width: 320px) {
   .navigation__mobile-button {
     width: 40px;
