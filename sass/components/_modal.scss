@@ -252,8 +252,8 @@
 
   .count-checkbox__span {
     display: inline-block;
-    width: 16px;
-    height: 15px;
+    min-width: 16px;
+    min-height: 15px;
     border-radius: 4px;
 
     margin-right: 10px;
