@@ -267,6 +267,23 @@
 .team {
   &__title {
     margin: 0 auto;
+    text-align: center;
+
+    color: $main-color; 
+
+    @media screen and (min-width: 320px) and (max-width: 1199px) {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;      
+    }
+
+    @media screen and (min-width: 1200px) {  
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.16;
+      letter-spacing: 0.03em;   
+    }
   }
 
   &__list {
@@ -425,16 +442,27 @@
 
 .client {
   &__title {
-    @media screen and (min-width: 320px) {
+    margin: 0 auto;
+    text-align: center;
+
+    color: $main-color; 
+
+    @media screen and (min-width: 320px) and (max-width: 1199px) {
       margin-bottom: 30px;
+
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;      
     }
 
-    @media screen and (min-width: 768px) {
-      margin-bottom: 30px;
-    }
-
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1200px) {  
       margin-bottom: 50px;
+
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.16;
+      letter-spacing: 0.03em;   
     }
   }
 
