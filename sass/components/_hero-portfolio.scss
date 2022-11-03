@@ -1,6 +1,6 @@
 .filters {
   &__list {
-    margin-bottom: 50px;
+    margin-bottom: 34px;
     gap: 8px;
 
     @media screen and (max-width: 767px) {
@@ -23,6 +23,7 @@
     color: $main-color;
     background-color: $background-color;
     cursor: pointer;
+    border-color: inherit;
 
     padding: 6px 25px;
     min-width: 73px;
