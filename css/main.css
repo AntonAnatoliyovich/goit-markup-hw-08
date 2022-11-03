@@ -1395,7 +1395,6 @@ address {
   gap: 30px;
 }
 .work__item {
-  height: 404px;
   gap: 30px;
   margin: 0 auto;
   background: #ffffff;
@@ -1406,7 +1405,7 @@ address {
 @media screen and (max-width: 767px) {
   .work__item {
     display: block;
-    max-width: 100%;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1433,21 +1432,7 @@ address {
 }
 .work__image {
   height: 294px;
-}
-@media screen and (min-width: 320px) {
-  .work__image {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .work__image {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .work__image {
-    width: 100%;
-  }
+  width: 100%;
 }
 .work__label {
   position: absolute;
