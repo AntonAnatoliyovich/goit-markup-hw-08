@@ -116,7 +116,6 @@
     justify-content: center;
     text-align: center;
     align-items: baseline;
-    height: 156px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -129,6 +128,10 @@
   }
 
   &__title {
+    @media screen and (max-width: 767px) {
+      margin-top: 60px;     
+    }
+
     @media screen and (max-width: 1199px) {
       text-align: center;
     }
