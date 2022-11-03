@@ -1468,6 +1468,7 @@ address {
 }
 .work__div {
   padding: 20px 20px;
+  color: #757575;
 }
 .work__title {
   color: #212121;
@@ -1477,7 +1478,6 @@ address {
   letter-spacing: 0.06em;
 }
 .work__text {
-  color: #757575;
   margin-top: 4px;
   font-size: 16px;
   line-height: 1.88;
