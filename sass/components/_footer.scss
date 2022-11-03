@@ -61,6 +61,8 @@
 
 .find {
   &__map {
+    margin-top: 20px;
+
     display: block;
     font-style: normal;
     font-size: 14px;
@@ -135,10 +137,6 @@
   }
 
   &__title {
-    @media screen and (max-width: 768px) {
-      margin-top: 60px;
-    }
-
     @media screen and (max-width: 1199px) {
       text-align: center;
     }
