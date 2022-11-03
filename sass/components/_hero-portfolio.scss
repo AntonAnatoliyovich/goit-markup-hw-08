@@ -55,16 +55,6 @@
   flex-wrap: wrap;
   gap: 30px;
 
-  @media screen and (min-width: 768px) {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   &__item {
     height: 404px;
     gap: 30px;
@@ -100,6 +90,7 @@
     height: 294px;
     position: relative;
     overflow: hidden;
+    margin: 0 auto;
   }
 
   &__image {

@@ -1401,24 +1401,6 @@ address {
       flex-wrap: wrap;
   gap: 30px;
 }
-@media screen and (min-width: 768px) {
-  .work {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .work {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
 .work__item {
   height: 404px;
   gap: 30px;
@@ -1455,6 +1437,7 @@ address {
   height: 294px;
   position: relative;
   overflow: hidden;
+  margin: 0 auto;
 }
 .work__image {
   height: 294px;
