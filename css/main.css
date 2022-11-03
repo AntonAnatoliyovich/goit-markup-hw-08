@@ -1419,6 +1419,37 @@ address {
         flex-wrap: wrap;
   }
 }
+.work__item {
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (max-width: 767px) {
+  .work__item {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .work__item {
+    -ms-flex-preferred-size: calc((100% - 60px) / 2);
+        flex-basis: calc((100% - 60px) / 2);
+    max-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .work__item {
+    -ms-flex-preferred-size: calc((100% - 60px) / 3);
+        flex-basis: calc((100% - 60px) / 3);
+    max-width: 370px;
+  }
+}
+.work__item:hover, .work__item:focus {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
 .work__icon {
   position: relative;
   overflow: hidden;
@@ -1500,8 +1531,8 @@ address {
   letter-spacing: 0.03em;
 }
 
-.work__info:hover .work__label,
-.work__info:focus .work__label {
+.work__item:hover .work__label,
+.work__item:focus .work__label {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
