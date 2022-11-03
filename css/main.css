@@ -1655,8 +1655,8 @@ address {
   padding: 40px;
   z-index: 999;
   background-color: #ffffff;
-  -webkit-transform: translate(100%);
-          transform: translate(100%);
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
 }
 @media screen and (min-width: 768px) {
   .mobile {
