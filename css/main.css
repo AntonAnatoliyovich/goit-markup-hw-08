@@ -1419,39 +1419,6 @@ address {
         flex-wrap: wrap;
   }
 }
-.work__info {
-  height: 404px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-@media screen and (max-width: 767px) {
-  .work__info {
-    display: block;
-    margin: 0 auto;
-    max-width: 450px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .work__info {
-    -ms-flex-preferred-size: calc((100% - 60px) / 2);
-        flex-basis: calc((100% - 60px) / 2);
-    max-width: 354px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .work__info {
-    -ms-flex-preferred-size: calc((100% - 60px) / 3);
-        flex-basis: calc((100% - 60px) / 3);
-    max-width: 370px;
-  }
-}
-.work__info:hover, .work__info:focus {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  cursor: pointer;
-}
 .work__icon {
   position: relative;
   overflow: hidden;
