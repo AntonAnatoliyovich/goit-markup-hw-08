@@ -1655,8 +1655,8 @@ address {
   padding: 40px;
   z-index: 999;
   background-color: #ffffff;
-  -webkit-transform: translate(0);
-          transform: translate(0);
+  -webkit-transform: translate(100%);
+          transform: translate(100%);
 }
 @media screen and (min-width: 768px) {
   .mobile {
@@ -1703,8 +1703,8 @@ address {
 }
 
 .mobile.is-open {
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 
 .mobile__list--first {

@@ -143,7 +143,7 @@
 
   background-color: $white-color;
 
-  transform: translate(0);
+  transform: translate(100%);
 
   @media screen and (min-width: 768px) {
     display: none;    
@@ -197,7 +197,7 @@
 }
 
 .mobile.is-open {
-  transform: translateX(100%);
+  transform: translateX(0);
 }
 
 .mobile__list--first {
