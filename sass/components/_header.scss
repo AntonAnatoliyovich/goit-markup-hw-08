@@ -139,6 +139,7 @@
   width: 100vw;
   height: 100vh;
   padding: 40px;
+  z-index: 999;
 
   background-color: $white-color;
 
@@ -196,7 +197,7 @@
 }
 
 .mobile.is-open {
-  transform: translateX(0%);
+transform: translateX(0);
 }
 
 .mobile__list--first {
