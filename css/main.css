@@ -1653,7 +1653,6 @@ address {
   width: 100vw;
   height: 100vh;
   padding: 40px;
-  z-index: 999;
   background-color: #ffffff;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
