@@ -1703,8 +1703,8 @@ address {
 }
 
 .mobile.is-open {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
 }
 
 .mobile__list--first {
