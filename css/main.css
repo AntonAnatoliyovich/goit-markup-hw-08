@@ -1632,6 +1632,7 @@ address {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  overflow: scroll;
   position: fixed;
   top: 0;
   left: 0;
